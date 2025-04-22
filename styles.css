@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 300px repeat(2, 1fr);
+    grid-template-rows: auto 1fr;
+    
+}
+
+.Avatar {
+    width: 70px;
+    height: 70px;
+}
+
+.dashboard {
+    grid-row: 1/3;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 20px;
+}
+
+.search_bar {
+    grid-column: 2/4;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+}
+
+.search_bar1  {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    flex: 2;
+}
+
+.searchBarPart1, .searchBarPart2 {
+    display: flex;
+}
+
+.searchBarPart1 > img {
+    align-self:flex-start;
+    margin-right: 20px;
+}
+
+.searchBarPart1 > form {
+    align-self: center;
+}
+
+.searchBarPart1 > form > input {
+    width: 600px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.search_bar1 > .searchBarPart1 > img, .searchBarPart2 > img {
+    height: 35px;
+    width: 35px;
+    display: inline-block;
+    align-self: center;
+}
+
+.searchBarPart2 > img {
+    margin-left: 20px;
+}
+
+.searchBarPart2 > h3 {
+    align-self: center;
+    font-size: 28px;
+    margin-left: 20px;
+}
+
+.container2 {
+    grid-column: 2/4;
+    background-color: yellow;
+}
+
+.searchText {
+    display: flex;
+}
+
+.search_bar2 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 10px;
+}
+
+.searchText1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-bottom: 8px;
+    padding-left: 5px;
+}
+
+.searchText1 h4{
+    padding-top: 5px;
+    font-size: 18px;
+}
+
+.searchButton {
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+    align-self: center;
+    gap: 20px;
+    
+}
+
+.searchButton button{
+    height: 40px;
+    width: 80px;
+    background-color: rgb(136, 207, 231);     
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    gap: 10px;
+}
+
+.dash1 img, .part1 img, .part2 img{
+    width: 50px;
+    height: 50px;   
+    align-items: center;
+}
+
+.dash1 {
+    display: flex;
+}
+
+.dash1 h1 {
+    align-self: center;
+}
+
+.part1 p, .part2 p {
+    font-size: 28px;    
+}
+
+.part1 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.part2 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 50px
+}
+
+.part11, .part12, .part13, .part14, .part15, .part16, .part21, .part22, .part23{
+    display: flex;
+    align-items: center;
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    height: 100vh;
+}
+
+.insideProject {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    margin: 10px;
+}
+
+.cl {
+    background-color: lightgreen;
+    border: 2px solid gray;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-top: 25%;
+    align-self: flex-start;
+    
+}
+
+.announcement {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.announcement1 {
+    margin-top: 20px;
+}
+
+.announcement2, .announcement1{
+    background-color: purple;
+    width: 90%;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    height: 30%;
+}
+
+.announcement1 h4, .announcement2 h4 {
+    font-size: 14px;
+}
+
+.announcement1 p, .announcement2 p {
+    font-size: 10px;
+}
+
+.profiledown {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.s1, .s2, .s3 {
+    display: flex;   
+}
+
+.s1 img, .s2 img, .s3 img {
+    margin-right: 10%;
+}
+
+.profile5 {
+    align-self: center;
+}
+
+.littleicons1 {
+    width: 25px;
+    height: 25px;
+}
+
+.littleicons {
+    display: flex;
+    justify-content: flex-end;
+}
